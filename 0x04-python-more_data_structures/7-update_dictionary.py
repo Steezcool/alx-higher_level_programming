@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-# 7-update_dictionary.py
-
-def update_dictionary(a_dictionary, key, value):
-    """it replaces or adds key/value in a dictionary"""
-    a_dictionary[key] = value
-    return(a_dictionary)
+def update_dictionary(my_dict, key, value):
+    my_dict[key] = value
+    return (my_dict)
